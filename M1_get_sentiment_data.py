@@ -6,6 +6,8 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 # Modify line below using the path to your Chrome driver installation
 driver = webdriver.Chrome("/path/to/chromedriver")
+# For example:
+# driver = webdriver.Chrome("/Users/aayala/.wdm/drivers/chromedriver/88.0.4324.96/mac64/chromedriver")
 
 #%%
 
